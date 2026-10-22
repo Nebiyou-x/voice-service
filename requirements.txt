@@ -8,3 +8,8 @@ numpy>=1.26.0
 aioredis>=2.0.1
 pydantic>=2.6.0
 python-multipart>=0.0.9
+qdrant-client
+sentence-transformers
+langchain
+langchain-community
+httpx
