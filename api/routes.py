@@ -1,7 +1,7 @@
 import io
 import wave
 import hashlib
-import aioredis
+from redis import asyncio as aioredis
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.responses import Response, StreamingResponse
 from config.settings import settings

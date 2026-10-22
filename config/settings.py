@@ -2,7 +2,7 @@ import os
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "Voice Synthesis Microservice"
+    PROJECT_NAME: str = "Lersha Voice Synthesis Microservice"
     MODEL_ID: str = "african-low-resource/omnivoice-amharic"
     DEVICE: str = "cuda:0" if os.environ.get("USE_CUDA", "1") == "1" else "cpu"
     DTYPE: str = "float16"
